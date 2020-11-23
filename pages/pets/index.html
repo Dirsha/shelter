@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pets</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- <div class="container"> -->
+        <nav class="header-navbar">
+          <div class="header-logo">
+            <h1 class="header-logo-title">Cozy House</h1>
+            <p class="header-logo-subtitle">Shelter for pets in Boston</p>
+          </div>
+          <div class="header-burger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </div>
+          <ul class="header-navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="../main/index.html">About the shelter</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Our pets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help the shelter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+          <ul id='mobile' class="mobile-menu ">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About the shelter</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Our pets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help the shelter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="row">
+
+          <h2>
+            Our friends who are<br />
+            looking for a house
+          </h2>
+        </div>
+        <div class="row main-row" id="listingTable">
+          <!-- <div id="katrine"
+            class="friends-card mob tablet col "
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/images/slider-cat.png"
+              alt=""
+            />
+            <p class="card-name">Katrine</p>
+            <a class="btn btn-secondary" href="#">Learn more</a>
+          </div>
+          <div id="jennifer"
+            class="friends-card mob tablet col "
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/images/slider-puppy.png"
+              alt=""
+            />
+            <p class="card-name">Jennifer</p>
+            <a class="btn btn-secondary" href="#">Learn more</a>
+          </div>
+          <div id="woody"
+            class="friends-card woody mob tablet col "
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/images/slider-dog.png"
+              alt=""
+            />
+            <p class="card-name">Woody</p>
+            <a class="btn btn-secondary" href="#">Learn more</a>
+          </div>
+          <div id="sophia"
+            class="friends-card tablet other col "
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/images/slider-katrine.png"
+              alt=""
+            />
+            <p class="card-name">Sophia</p>
+            <a class="btn btn-secondary" href="#">Learn more</a>
+          </div>
+          <div id="timmy" class="friends-card tablet col ">
+            <img
+              class="img-fluid"
+              src="../../assets/images/slider-timmy.png"
+              alt=""
+            />
+            <p class="card-name">Timmy</p>
+            <a class="btn btn-secondary" href="#">Learn more</a>
+          </div>
+          <div id="charly"
+            class="friends-card tablet other col "
+          >
+            <img id="charly"
+              class="img-fluid"
+              src="../../assets/images/slider-charly.png"
+              alt=""
+            />
+            <p class="card-name">Charly</p>
+            <a class="btn btn-secondary" href="#">Learn more</a>
+          </div>
+          <div id="scarlett" class="friends-card col ">
+            <img
+              class="img-fluid"
+              src="../../assets/images/slider-scarlet.png"
+              alt=""
+            />
+            <p class="card-name">Scarlett</p>
+            <a class="btn btn-secondary" href="#">Learn more</a>
+          </div>
+          <div id="freddie" class="friends-card col ">
+            <img
+              class="img-fluid"
+              src="../../assets/images/slider-fraddy.png"
+              alt=""
+            />
+            <p class="card-name">Freddie</p>
+            <a class="btn btn-secondary" href="#">Learn more</a>
+          </div>
+        </div> -->
+      </div>
+        <div class="slider">
+          <a href="#" class="slider-item slider-double-arrow " id="button_first">
+            <span class="slider-togle"><<</span>
+          </a>
+          <a href="#" class="slider-item slider-arrow " id="button_prev">
+            <span class="slider-togle" ><</span>
+          </a>
+          <a href="#" class="slider-item slider-order right">
+            <span class="slider-number" id="page_number">1</span>
+          </a>
+          <a href="#" class="slider-item slider-arrow right" id="button_next">
+            <span class="slider-togle" >></span>
+          </a>
+          <a href="#" class="slider-item slider-double-arrow right" id="button_last">
+            <span class="slider-togle">>></span>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-item col">
+            <h3 class="footer-title">
+              For questions and<br />
+              suggestions
+            </h3>
+            <a class="footer-link" href="mailto:email@shelter.com"
+              ><img src="../../assets/icons/mail.svg" alt="mail" />
+              email@shelter.com</a
+            >
+            <a class="footer-link" href="tel:+13 674 567 75 54"
+              ><img src="../../assets/icons/icon-phone.svg" alt="phone" /> +13
+              674 567 75 54</a
+            >
+          </div>
+          <div class="footer-item col">
+            <h3 class="footer-title">
+              We are waiting<br />
+              for your visit
+            </h3>
+            <a class="footer-link" href="https://clck.ru/R3au8"
+              ><img src="../../assets/icons/pin.svg" alt="pin" />1 Central
+              Street, Boston<br />
+              (entrance from the store)</a
+            >
+            <a class="footer-link" href="https://clck.ru/R3au8"
+              ><img src="../../assets/icons/pin.svg" alt="pin" /> 18 South Park,
+              London
+            </a>
+          </div>
+          <div class="footer-img-wrapper col offset-md-3">
+            <img
+              class="footer-img"
+              src="../../assets/images/footer-puppy.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
